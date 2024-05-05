@@ -8,6 +8,7 @@
 - David Ramalho Teixeira de Carvalho, RGM: 34262407;
 - Hygor Gabriel Alves Montenegro, RGM: 34667164;
 - Leonardo Felipe Silva Costa, RGM: 32909969;
+- Marcos Pereira Matias Neto, RGM: 34084941;
 
 ## Descrição do Projeto
 
