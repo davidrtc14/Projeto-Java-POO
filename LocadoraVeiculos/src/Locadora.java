@@ -20,6 +20,7 @@ public class Locadora {
 
         switch (opcao) {
             case 1:
+                exibirMenuClientes();
                 break;
             case 2:
                 break;
@@ -29,6 +30,30 @@ public class Locadora {
             default:
                 System.out.println("Opção inválida.");
                 exibirMenuInicial();
+        }
+    }
+
+    private void exibirMenuClientes() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("1. Cadastre-se");
+        System.out.println("2. Alugar um Veículo");
+        System.out.println("3. Voltar");
+
+        int opcao = scanner.nextInt();
+        scanner.nextLine();
+
+        switch (opcao) {
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                exibirMenuInicial();
+                break;
+            default:
+                System.out.println("Opção inválida.");
+                exibirMenuClientes();
         }
     }
 }
